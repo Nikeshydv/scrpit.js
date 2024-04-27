@@ -1,0 +1,32 @@
+
+// // when the spread opeartoe=r parameter is used as rest parameter
+
+// let display = function(...num1){
+//     document.getElementById("head").innerHTML =  num1;
+//     console.log(num1);
+// }
+
+// display(2,3,4)
+// display(45,78,65,78);
+
+
+
+
+
+// let sum = function(x,y,z){
+//     console.log(x+y+z);
+//     document.getElementById("head").innerHTML = sum;
+// }
+
+// const array =[1,2,3,4,5,6];
+// sum(...array);
+
+
+
+function display(...num1){
+console.log(num1);
+}
+
+// display(12,45,78,45,98,65,88,65,20)
+
+display[12,45,78,65,98];
